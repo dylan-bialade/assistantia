@@ -1,0 +1,152 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assistant de Dylan — Deep Search</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .card { border-radius: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,.08); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-5xl mx-auto p-6">
+    <h1 class="text-2xl font-semibold mb-4">🔎 Assistant de Dylan — Deep Search</h1>
+
+    <div class="card bg-white p-4 mb-6">
+      <div class="grid grid-cols-1 md:grid-cols-6 gap-3 items-end">
+        <div class="md:col-span-3">
+          <label class="block text-sm mb-1">Requête</label>
+          <input id="q" type="text" placeholder="ex: tendances IA en entreprise 2025"
+                 class="w-full rounded-lg border px-3 py-2 focus:outline-none focus:ring focus:ring-indigo-200" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Max résultats</label>
+          <input id="max_results" type="number" min="1" max="200" value="30"
+                 class="w-full rounded-lg border px-3 py-2 focus:outline-none focus:ring focus:ring-indigo-200" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Max/domain</label>
+          <input id="max_per_domain" type="number" min="1" max="50" value="3"
+                 class="w-full rounded-lg border px-3 py-2 focus:outline-none focus:ring focus:ring-indigo-200" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1">Delay/domain (s)</label>
+          <input id="delay_per_domain" type="number" step="0.1" min="0" max="10" value="1.2"
+                 class="w-full rounded-lg border px-3 py-2 focus:outline-none focus:ring focus:ring-indigo-200" />
+        </div>
+        <div class="flex items-center gap-3">
+          <label class="inline-flex items-center gap-2">
+            <input id="follow" type="checkbox" class="h-4 w-4" />
+            <span>Suivre liens</span>
+          </label>
+          <label class="inline-flex items-center gap-2">
+            <input id="pretty" type="checkbox" class="h-4 w-4" />
+            <span>JSON joli</span>
+          </label>
+        </div>
+        <div class="md:col-span-6 flex gap-3">
+          <button id="go" class="rounded-lg bg-indigo-600 text-white px-4 py-2 hover:bg-indigo-700">Rechercher</button>
+          <button id="clear" class="rounded-lg bg-gray-200 text-gray-800 px-4 py-2 hover:bg-gray-300">Effacer</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="status" class="text-sm text-gray-600 mb-3"></div>
+    <div id="results" class="space-y-4"></div>
+
+    <details class="mt-8">
+      <summary class="cursor-pointer text-sm text-gray-600">Voir la réponse JSON brute</summary>
+      <pre id="raw" class="mono text-xs bg-white p-4 rounded-lg overflow-auto mt-2"></pre>
+    </details>
+  </div>
+
+<script>
+const $ = (sel) => document.querySelector(sel);
+const esc = (s) => (s || "").toString().replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]) );
+
+async function run() {
+  const q = $("#q").value.trim();
+  if (!q) { $("#status").textContent = "Saisis une requête."; return; }
+
+  const max_results = +$("#max_results").value || 30;
+  const follow = $("#follow").checked;
+  const max_per_domain = +$("#max_per_domain").value || 3;
+  const delay_per_domain = +$("#delay_per_domain").value || 1.2;
+  const pretty = $("#pretty").checked;
+
+  const params = new URLSearchParams({ q, max_results, follow, max_per_domain, delay_per_domain, pretty, personalize: true });
+  const url = `/deep_search?${params.toString()}`;
+
+  $("#status").textContent = "Recherche en cours…";
+  $("#results").innerHTML = "";
+  $("#raw").textContent = "";
+
+  try {
+    const res = await fetch(url);
+    const txt = await res.text();
+    let data;
+    try { data = JSON.parse(txt); } catch { data = null; }
+    if (data && data.results) {
+      renderCards(data);
+      $("#raw").textContent = JSON.stringify(data, null, 2);
+      $("#status").textContent = `OK — ${data.results.length} résultats (follow=${data.meta.follow_performed ? "oui" : "non"})`;
+    } else {
+      $("#raw").textContent = txt;
+      $("#status").textContent = "Réponse formatée (pretty)";
+    }
+  } catch (e) {
+    $("#status").textContent = "Erreur: " + e.message;
+  }
+}
+
+async function sendFeedback(item, label) {
+  try {
+    await fetch("/feedback", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ url: item.url, domain: item.domain, title: item.title, label })
+    });
+  } catch (e) { console.warn("feedback error", e); }
+}
+
+function renderCards(data) {
+  const wrap = $("#results"); wrap.innerHTML = "";
+  for (const it of data.results) {
+    const allowed = it.allowed_by_robots === false
+      ? '<span class="text-xs bg-red-100 text-red-700 px-2 py-1 rounded-full">robots.txt: non</span>'
+      : '<span class="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">robots.txt: ok</span>';
+
+    const card = document.createElement("div");
+    card.className = "card bg-white p-4";
+    card.innerHTML = `
+      <div class="flex flex-wrap items-center gap-2 mb-2">
+        <a class="text-lg font-medium text-indigo-700 hover:underline" href="${esc(it.url)}" target="_blank" rel="noopener">
+          ${esc(it.title || it.url)}
+        </a>
+        <span class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full">${esc(it.domain || "")}</span>
+        ${allowed}
+      </div>
+      ${it.snippet ? `<p class="text-sm text-gray-700 mb-2">${esc(it.snippet)}</p>` : ``}
+      ${it.extract ? `<details class="mt-1"><summary class="text-sm text-gray-600 cursor-pointer">Extrait</summary><p class="text-sm text-gray-800 mt-1">${esc(it.extract)}</p></details>` : ``}
+      <div class="mt-2 flex gap-2">
+        <button class="px-3 py-1 rounded bg-green-100 text-green-800 hover:bg-green-200 text-sm" data-act="like">👍 Utile</button>
+        <button class="px-3 py-1 rounded bg-red-100 text-red-800 hover:bg-red-200 text-sm" data-act="dislike">👎 Sans intérêt</button>
+      </div>
+      <div class="mt-2 text-xs text-gray-500 mono">${esc(it.url)}</div>
+    `;
+    card.querySelector('[data-act="like"]').addEventListener("click", async () => { await sendFeedback(it, "like"); card.style.outline = "2px solid #16a34a55"; });
+    card.querySelector('[data-act="dislike"]').addEventListener("click", async () => { await sendFeedback(it, "dislike"); card.style.outline = "2px solid #dc262655"; });
+    wrap.appendChild(card);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  $("#go").addEventListener("click", run);
+  $("#clear").addEventListener("click", () => { $("#q").value = ""; $("#results").innerHTML = ""; $("#raw").textContent = ""; $("#status").textContent = ""; });
+  $("#q").addEventListener("keydown", (e) => { if (e.key === "Enter") run(); });
+});
+</script>
+</body>
+</html>
