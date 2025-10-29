@@ -1,0 +1,187 @@
+{
+  "app/database.py": {
+    "hash": "27671718a54656d73b163a48a0b5bb3832a466bd",
+    "size": 2648,
+    "mtime": 1761411314
+  },
+  "app/main.py": {
+    "hash": "8644439fe2b3697397d8f3d5cba0650f8475a0eb",
+    "size": 1725,
+    "mtime": 1761663045
+  },
+  "app/models.py": {
+    "hash": "eb4455ce5437f07f2f8780736e8c7e8d714f1a21",
+    "size": 1019,
+    "mtime": 1761419700
+  },
+  "app/server.py": {
+    "hash": "5caf339d4118994f106ff8a1daf0f171de128eac",
+    "size": 18939,
+    "mtime": 1761407595
+  },
+  "app/server_min.py": {
+    "hash": "0c7bd214bb2073d6af92839977078866c2cbc1ef",
+    "size": 260,
+    "mtime": 1761405525
+  },
+  "app/server_search.py": {
+    "hash": "09411ccc6eaaa03d892bcf88cbbfbd4a79f0ff5d",
+    "size": 9103,
+    "mtime": 1761405999
+  },
+  "app/__init__.py": {
+    "hash": "1419458f2696be8daeade77ddad380cd0c871fdb",
+    "size": 5,
+    "mtime": 1761408969
+  },
+  "app/models/code_change.py": {
+    "hash": "b0863559dc8e7916f1dbd930ee1c31b76fbff47c",
+    "size": 688,
+    "mtime": 1761427894
+  },
+  "app/models/__init__.py": {
+    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "size": 0,
+    "mtime": 1761428104
+  },
+  "app/neurone/nn_personalizer.py": {
+    "hash": "9ed6308530807bad527b0c956ca57c5e0e5ef4c6",
+    "size": 8791,
+    "mtime": 1761662097
+  },
+  "app/neurone/persona_manager.py": {
+    "hash": "88d6df4ebbe1829df258f1cd7cb8a1bd2a6660a1",
+    "size": 2699,
+    "mtime": 1761662778
+  },
+  "app/neurone/__init__.py": {
+    "hash": "1419458f2696be8daeade77ddad380cd0c871fdb",
+    "size": 5,
+    "mtime": 1761408969
+  },
+  "app/routers/chat.py": {
+    "hash": "d5a1f241f8cb5a82e3d46df4bdf7c81ab313fd7b",
+    "size": 1539,
+    "mtime": 1761424186
+  },
+  "app/routers/code_review.py": {
+    "hash": "46cb2a945b83ac15f90ea244568b125396ec6836",
+    "size": 4470,
+    "mtime": 1761428511
+  },
+  "app/routers/deep_search.py": {
+    "hash": "9538f5d7e1b8f439c7d448c5206fe86bd8b5e4eb",
+    "size": 4438,
+    "mtime": 1761424174
+  },
+  "app/routers/feedback.py": {
+    "hash": "6126cc8d7e3b8998142bbae43817411fd44e0d97",
+    "size": 2204,
+    "mtime": 1761662136
+  },
+  "app/routers/patch_router.py": {
+    "hash": "3bb29701a966c46a58bf266ab1856570b8b23882",
+    "size": 677,
+    "mtime": 1761552051
+  },
+  "app/routers/persona.py": {
+    "hash": "95afce56fd851ae0cbe532bf10f106e889807b4d",
+    "size": 6973,
+    "mtime": 1761663524
+  },
+  "app/routers/self_update_router.py": {
+    "hash": "b60bc40613c35901bf43cafac220187230ff43a6",
+    "size": 7535,
+    "mtime": 1761553650
+  },
+  "app/routers/trace.py": {
+    "hash": "5cccd50ff7935b3aa98754f39aa8c9d3505859ae",
+    "size": 833,
+    "mtime": 1761427091
+  },
+  "app/routers/weather.py": {
+    "hash": "63867c11a2567fb4ad8c5514ebb8cfe87fb33ea3",
+    "size": 2771,
+    "mtime": 1761408969
+  },
+  "app/routers/__init__.py": {
+    "hash": "1419458f2696be8daeade77ddad380cd0c871fdb",
+    "size": 5,
+    "mtime": 1761408969
+  },
+  "app/services/chat_engine.py": {
+    "hash": "8577198cff4d485a4902bfdd08ec10a0c7a46b59",
+    "size": 9056,
+    "mtime": 1761664254
+  },
+  "app/services/code_ingest.py": {
+    "hash": "e62fcc6c062d585c332c9fc9ed4c6486599d2d42",
+    "size": 2187,
+    "mtime": 1761551948
+  },
+  "app/services/code_io.py": {
+    "hash": "882b05c50c4679be4b082a2e31eb993941d2193f",
+    "size": 1101,
+    "mtime": 1761427915
+  },
+  "app/services/extract.py": {
+    "hash": "f1dc280d59d1c842a3618baa64d086db1f738d5c",
+    "size": 2604,
+    "mtime": 1761408969
+  },
+  "app/services/llm_local.py": {
+    "hash": "f6544cb770e83a6607dd2a2e57a3e547e47a57d5",
+    "size": 990,
+    "mtime": 1761555014
+  },
+  "app/services/memory.py": {
+    "hash": "3b153c69fdf3b08620464df80b9fc87734b43847",
+    "size": 10160,
+    "mtime": 1761664674
+  },
+  "app/services/prefs.py": {
+    "hash": "749b9e0c332df4a980e89f46da56f062989fab86",
+    "size": 3282,
+    "mtime": 1761411116
+  },
+  "app/services/search.py": {
+    "hash": "9d48ca6b48a0172a23613a78683ed6d6e550d346",
+    "size": 9110,
+    "mtime": 1761662626
+  },
+  "app/services/self_update.py": {
+    "hash": "e8c43ea187a7183c015911645a369980cc0c596c",
+    "size": 2088,
+    "mtime": 1761554555
+  },
+  "app/services/startup_indexer.py": {
+    "hash": "4b6efa3a8a473165bc2296fde6adc61c60c202b6",
+    "size": 7122,
+    "mtime": 1761659196
+  },
+  "app/services/trace_logger.py": {
+    "hash": "232efc0fd6f5406ce936c5967edb5bea01299e2a",
+    "size": 1559,
+    "mtime": 1761427073
+  },
+  "app/services/verification.py": {
+    "hash": "95341edeff93ad50c7ba4ad413a110abc9b0f684",
+    "size": 3500,
+    "mtime": 1761551275
+  },
+  "app/services/__init__.py": {
+    "hash": "1419458f2696be8daeade77ddad380cd0c871fdb",
+    "size": 5,
+    "mtime": 1761408969
+  },
+  "app/static/self_review.html": {
+    "hash": "cf3c720cfdb370566b3ccaba3d69c637191ab412",
+    "size": 3216,
+    "mtime": 1761553010
+  },
+  "app/static/ui.html": {
+    "hash": "1834fcfc4fffa5869f642a9f84e60241a78c787b",
+    "size": 7225,
+    "mtime": 1761408969
+  }
+}

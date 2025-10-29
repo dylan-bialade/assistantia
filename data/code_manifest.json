@@ -1,0 +1,733 @@
+{
+  "version": 1,
+  "files": {
+    "app\\__init__.py": {
+      "sha": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+        }
+      ]
+    },
+    "app\\database.py": {
+      "sha": "18ef52f9c7167fcaab78a3cbf5b306b8473b9cabb24aebb23b460a51e76f3c4d",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "508cbdbfa276409dada8bd18e42a7de36de9ae12dc22c482cc6dbe72afb04037"
+        },
+        {
+          "idx": 1,
+          "sha": "1c2945e3bf4f3e4f655f9ec2e672777decddda6b9f4e356630e52368dd42956b"
+        },
+        {
+          "idx": 2,
+          "sha": "d005e728e5d77d50a42b2773cb9def2403f01c40723d9f5bf085d99d274686ed"
+        },
+        {
+          "idx": 3,
+          "sha": "19a5c59f95c8168b2842b44510723f884ec7bc4a90f4129e8cdfc63c850286f0"
+        }
+      ]
+    },
+    "app\\main.py": {
+      "sha": "2e79b875b5e05539b31ab5fccfff79c7599ddeffe2fbf56b3effb29270ba23fb",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "13ed394a504862fc7fe0edbc2125446a8ffce5092a7dacef03948064e4a661b5"
+        },
+        {
+          "idx": 1,
+          "sha": "3881d42a66d79c4e28079d689bfb1cab6a0f6829ef05b34836774e7da632c6ee"
+        },
+        {
+          "idx": 2,
+          "sha": "56b6d08414ec8abf9d565e41c1c4b36459caf0bf93abaf538974ffafd61ea317"
+        },
+        {
+          "idx": 3,
+          "sha": "b805dfd8faffe41568cddaf98491d7437d4e76746ea1834d2630ece7a2657ac9"
+        }
+      ]
+    },
+    "app\\models.py": {
+      "sha": "b30401ea1f42ea79504d4bfaf03a0a30a0bfb61d2c991fd9e98b69e34a31c980",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "10f73a5e1377da6ca6f74f906d465a9f9b07d51af99c9c34e06b597f56ce1d8d"
+        },
+        {
+          "idx": 1,
+          "sha": "5a785933ecf650cc74c270d3166c0a8a7323faf2765c8c7409ed5a7966f9db3e"
+        }
+      ]
+    },
+    "app\\models\\__init__.py": {
+      "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "chunks": []
+    },
+    "app\\models\\code_change.py": {
+      "sha": "ba34a82cfd0a679f87cfbcd8c9400a418f34d948aa21fc191ff87a2b1cb62a32",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "ba34a82cfd0a679f87cfbcd8c9400a418f34d948aa21fc191ff87a2b1cb62a32"
+        }
+      ]
+    },
+    "app\\routers\\__init__.py": {
+      "sha": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+        }
+      ]
+    },
+    "app\\routers\\chat.py": {
+      "sha": "ab7f6aaa06c6ca24dfdfe5daed88637cbd75031c9219a84f4e98486060f10193",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "b59031339b9ce4ddbdf5870d37eb83693fa86cad6a04af3935ba90ca90de7a73"
+        },
+        {
+          "idx": 1,
+          "sha": "a10328c1310d6f44eb68e964fcf806ae795d5bbe7b45dfd59119662d02b32924"
+        }
+      ]
+    },
+    "app\\routers\\code_review.py": {
+      "sha": "a22e52b04fae02f8f7d379a5a62b1d3c76d17a276ce97911ff7e7d12a35a24ca",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "864991069fa82a844278c6d4c676c5b42ee3caf858e3b82303d318ba6254045c"
+        },
+        {
+          "idx": 1,
+          "sha": "38c699602f2fc7e24842fc2f590376ce79a02e516b1e1d23d85f717d32572321"
+        },
+        {
+          "idx": 2,
+          "sha": "81a8a2368691f50bab99225718394e867f669a0c3b26cc2f3862a7f3db8eae5f"
+        },
+        {
+          "idx": 3,
+          "sha": "38a3e6487646cd6f674779f9d0e1e16773a321dea389da7ec3900ed9119b1fe3"
+        },
+        {
+          "idx": 4,
+          "sha": "b1e28ebbc328b8ee60b4741021a22b4a7dfebb024cbe120b9e07104256e28ad0"
+        },
+        {
+          "idx": 5,
+          "sha": "b843c0586bd28a8655f354bf00227ff19516f774065b6f9526b92abfdde56380"
+        }
+      ]
+    },
+    "app\\routers\\deep_search.py": {
+      "sha": "20756a4f5e46e98d9718780c01815d83065a04c361b13e2de8c65ef2e6bff5ce",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "9c5c813946056195a5c6697e477725201ed55d712f2d421be389882cc344d974"
+        },
+        {
+          "idx": 1,
+          "sha": "6490b70b044d1438c3b0b72bb727e6e72d0f7edf3d0bd2e742a1edbe1ec9003b"
+        },
+        {
+          "idx": 2,
+          "sha": "5cda6d68067924359807076b7bead2d49acd3f8d8130276a6ecddaea97e8493f"
+        },
+        {
+          "idx": 3,
+          "sha": "0f93ac814ec1989adfd27a588da4e604d6ce9adf3e0f08129f25cbfaa66fdd30"
+        },
+        {
+          "idx": 4,
+          "sha": "f0182d1c8ee808eac608afbc27fe712fbdda6ad529089c00790b2055e811f957"
+        },
+        {
+          "idx": 5,
+          "sha": "7cca0d917fabd4850e6d6b681d800f90d73f5646b9c88141a65c23acd629789f"
+        }
+      ]
+    },
+    "app\\routers\\feedback.py": {
+      "sha": "c5bbe6016caaea5eca3950e2a16b4d3b96350416fbb12f0c8c9f5022efdf7150",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "c71b356b9f2317ae042ce9a46646103a6c1ca3bd216c9ce1fc76b40463eb1fea"
+        },
+        {
+          "idx": 1,
+          "sha": "26f56c8557f5bb8e09896daa818162d676bd75a121e1c26a08ea23fd0e984743"
+        }
+      ]
+    },
+    "app\\routers\\self_update_router.py": {
+      "sha": "9121ffcd41e235fdc0dbe8083a94f5d2a0ab67ea2c98c5cc399d4ebccba9260d",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "aa3fd0179472dbc6bed06f1686de6c09ba97652cac97cf5543f0c5bd993ec8ba"
+        },
+        {
+          "idx": 1,
+          "sha": "83312776bfe401fda1208aba2360f9a2ff3a295873fe520e28d0da2bd5a34d89"
+        },
+        {
+          "idx": 2,
+          "sha": "ecdd35a0d9c843af9175777a1ceb4957b04f05953f4a663153b90be5fe513aa4"
+        },
+        {
+          "idx": 3,
+          "sha": "1f91846c55367e9f96fd9b6809f7b11ad8fa4a0dada7fdebd5ebf1c9c718439a"
+        },
+        {
+          "idx": 4,
+          "sha": "e8e9ef4a8d5eeef1d52e88320dcafacbb3577272194e488c7a7074057a81ce0d"
+        },
+        {
+          "idx": 5,
+          "sha": "075d42c1fd2fa024750960dc1f022e3d7f7628a4110e90f562d8ba6f4cedc24f"
+        },
+        {
+          "idx": 6,
+          "sha": "7b431020141e0bb30e796dd7f9e308546d445d3514f4b158f1bbd050a6ebacee"
+        },
+        {
+          "idx": 7,
+          "sha": "06cb7e30575dd78367a3b8596033bb110b7b5568784d9fa3a6326fb854596327"
+        },
+        {
+          "idx": 8,
+          "sha": "93031d4a29cb47a8e97e3c583349b7fe59cf9bcf5646fa2147eee5259346235a"
+        }
+      ]
+    },
+    "app\\routers\\trace.py": {
+      "sha": "c3b0685ea6f1f2208e922d38d98e107c2b4f812f4f31086d4f78e23968afd179",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "c3b0685ea6f1f2208e922d38d98e107c2b4f812f4f31086d4f78e23968afd179"
+        }
+      ]
+    },
+    "app\\routers\\weather.py": {
+      "sha": "a1dc5f842a6dc43231ffaaf588b9724b46184f410f1c432d55d6feea748f319b",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "23f0639fb1f7e52041d301722f183945dc13acefa737f646cf552296bc78364f"
+        },
+        {
+          "idx": 1,
+          "sha": "6629b938c8288ab4c38f39b723f879f40488538157c6d813c683be71ee1167ac"
+        },
+        {
+          "idx": 2,
+          "sha": "340524aa0c3b6c72b596f43ff966438aef66bf1f95b7aeb7af4662ac7b806d6e"
+        },
+        {
+          "idx": 3,
+          "sha": "1b2d6398219b3c2342f13015166e0578b844dfeed9fe8fa9ed12b403193690b4"
+        }
+      ]
+    },
+    "app\\server.py": {
+      "sha": "26fed6c4c22ef5d053ffe1610a01964e57b615d0b919c860e607aaddb7fce337",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "0a1585485e17c62e615913fad4481894ab7eebc8c277c71e32a2fd9dc27cf41a"
+        },
+        {
+          "idx": 1,
+          "sha": "78008f61462da6957dbd4f6a28bd4fa20f85e836c53ff0a2cb7cbd55f4f98bcc"
+        },
+        {
+          "idx": 2,
+          "sha": "33013795a1cbcb33a03e27118375167118b514b21263461b1a3213d58eca5bab"
+        },
+        {
+          "idx": 3,
+          "sha": "158058ff26f205cd235cb3e2975ab3edb8e530f2ab72544d9e7ab0e84654bf54"
+        },
+        {
+          "idx": 4,
+          "sha": "107c4818551765da13eaac15a72ec099e750fddefd410f7a944c11578d65cec1"
+        },
+        {
+          "idx": 5,
+          "sha": "7a6724c3125496bbb2b09e583b492e8d6f7974e76cfc7e9305647b9ffb1d4638"
+        },
+        {
+          "idx": 6,
+          "sha": "3724f9e65dce687dae1af3dd18e04d7e1fe95cbb87cc2d3f1ada1eeab4ca48bf"
+        },
+        {
+          "idx": 7,
+          "sha": "5a8c1d7f61fb79761f2d0a5b70ab76b12cc941ef52f303c29c8e3b41ccaad668"
+        },
+        {
+          "idx": 8,
+          "sha": "0e50334f8d5a9fe7506e2a9fd47db52600bd3eedc647c1e7e1ca3ba488bd0edc"
+        },
+        {
+          "idx": 9,
+          "sha": "f0ea48bfc9e542ceba761f915bc84284251655124f6afd827c0f36c6a0145701"
+        },
+        {
+          "idx": 10,
+          "sha": "02f89491d8878af85a55d8fb9f8ce451bff4e9eea79310bb79de5fff0284e56b"
+        },
+        {
+          "idx": 11,
+          "sha": "dcc2f6ef7b5b3da015c3d853b40010381d1a96db0661e5a281aac845ab05707d"
+        },
+        {
+          "idx": 12,
+          "sha": "df11088f8a0a093528c6cb610b06a1d341577f2a6464fea5624459e432aa2b00"
+        },
+        {
+          "idx": 13,
+          "sha": "fa6358a71b5ca0e50217ad19ab94c3584fa040c25978ac60cd435e10b6a8fff5"
+        },
+        {
+          "idx": 14,
+          "sha": "afcc129f671dfd717139ed4e90d2c9f320e3b65cf3925728c4c73fa910fc0a80"
+        },
+        {
+          "idx": 15,
+          "sha": "c7ac5d66be89053a84274adf50ce32dc546abacef6f77aede563d172ffc408fc"
+        },
+        {
+          "idx": 16,
+          "sha": "1fb2e0e6ed9fa83e08329ae967ceb8158556081cc153f02507b3f0d0749c56d2"
+        },
+        {
+          "idx": 17,
+          "sha": "f78eb3bd02fc37ebb57cd4b2dedc1939334fb6b984da171f8ec5e9b30ba664fa"
+        },
+        {
+          "idx": 18,
+          "sha": "dc4b7cd7361cb1cbbaee1a6b361c6410d1f5ea739ab8e18fa26943ee01e2217c"
+        },
+        {
+          "idx": 19,
+          "sha": "62e209cef4ac3fe27fa6e6a31c7f15c30f3f2560a5fb0abb8be5c9c0584bbf91"
+        },
+        {
+          "idx": 20,
+          "sha": "7e81a1d88db34a1c1f45473016091ca6a8b146d31ea08ab4e50022c422a7df7a"
+        },
+        {
+          "idx": 21,
+          "sha": "346f261c9469d7a19fd9b8f16bf4469ac311523f4a2a238a21ba6d1c21d8e757"
+        },
+        {
+          "idx": 22,
+          "sha": "ec27ad7befd003af31cb6de9125218a4b1694d650c224aa6641165aaef29becd"
+        }
+      ]
+    },
+    "app\\server_min.py": {
+      "sha": "97bf8fe4b3c1ff9d0ab1260de70ead156a81329a9d27a6e23fb7c5bce40e682a",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "97bf8fe4b3c1ff9d0ab1260de70ead156a81329a9d27a6e23fb7c5bce40e682a"
+        }
+      ]
+    },
+    "app\\server_search.py": {
+      "sha": "da84eaf20609ca7886a482372e89daf97a36aa9b4ccdac58682cc20b593c9be5",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "5b4a261c68ca3d450579a5b340d7aafec72e74ebcf0d8c5adc14ad4d916816ee"
+        },
+        {
+          "idx": 1,
+          "sha": "1df8c7f61d7590d0b98c919d63a1042c6e415d0c9c30ad92e63af1a129c1a21b"
+        },
+        {
+          "idx": 2,
+          "sha": "4fe181eba6696b308278711264407472ca0f14fa108041f4e255b6d9b9291062"
+        },
+        {
+          "idx": 3,
+          "sha": "3a548f7f79e5a8f6efa2b9e998d926e0d5a6d2392b4c7e6d3a6e51becf214d1f"
+        },
+        {
+          "idx": 4,
+          "sha": "9249a1e121f0c07639073dafb3d1ec16dab889940c3ba20c5621f0f6bf764c17"
+        },
+        {
+          "idx": 5,
+          "sha": "e55018ab9291d3c0e0b1fc8698568ac768fefcc7a4bafbc12f561bec3d70a590"
+        },
+        {
+          "idx": 6,
+          "sha": "c9752fa3b856b237dfb039c091866d63d458dc0f32dd734704785c1888b9e525"
+        },
+        {
+          "idx": 7,
+          "sha": "df5a2aa390f4004bb78a952038139caa3b4205ea068de4bdf8922c343749b65a"
+        },
+        {
+          "idx": 8,
+          "sha": "f66ef1da87d89ddade0c8588ff884d82f847531ec44fddf31b4bf078c1c94642"
+        },
+        {
+          "idx": 9,
+          "sha": "1d00e131831a0a068ec533ca4599ee5112af3bdd2736e47151c988ee73279649"
+        },
+        {
+          "idx": 10,
+          "sha": "1d5126e2acbd93f2bd571a72be6dccbaec31d549856f2c3d23f7c717d4def9ab"
+        }
+      ]
+    },
+    "app\\services\\__init__.py": {
+      "sha": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+        }
+      ]
+    },
+    "app\\services\\chat_engine.py": {
+      "sha": "53b2c9c4b2b80010305b2aba48536649d764444159448e58b79c16faaf6fc9eb",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "7d0b57da5de3f39a2047af05803fa2c68c8028e74bcd265bb9b38305131cef16"
+        },
+        {
+          "idx": 1,
+          "sha": "154b9183259628a6c5de0e066088790f8710e67c483d48719c3d541c72558126"
+        },
+        {
+          "idx": 2,
+          "sha": "2d2fbf25ba8e177017fedd6707ac9bcb0b1f30536ca7765e6cd91c21a558e995"
+        },
+        {
+          "idx": 3,
+          "sha": "e750aea2314c71261b7860d998b24bc3e0bd3c9005fe7b7070c2b84b11438c15"
+        }
+      ]
+    },
+    "app\\services\\code_io.py": {
+      "sha": "908318d97a2e9198fa9b8435b50907a7a2e2463788ad889ee5b1c35b6511465d",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "5ab56985c7bec3cac16f332e7271d8816b34de7cd2d3061af57a636e14854856"
+        },
+        {
+          "idx": 1,
+          "sha": "6d8bc8d433788da696ff0b62bb7182acf110381f117fb6e7c9513e853dbc1783"
+        }
+      ]
+    },
+    "app\\services\\extract.py": {
+      "sha": "f64e77cf35713fb4f3f77043da5cf43f8916f238e863a6014ead3e19ed79fbb4",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "921a5548c510c26e4487d3034d9669311f01e144b50102745fb6acfcb7da5852"
+        },
+        {
+          "idx": 1,
+          "sha": "e337d538afda56a5625528a2bb758c759036608e3fc7aa34ded773f7a4dca3db"
+        },
+        {
+          "idx": 2,
+          "sha": "a14f319f64e3b628a910398d0a3ceb902a2c6650874e37ca2086969661a522e5"
+        },
+        {
+          "idx": 3,
+          "sha": "91085127bd7090025fc326124607b1625276b7f104beecef23009b0845bf938c"
+        }
+      ]
+    },
+    "app\\services\\memory.py": {
+      "sha": "a91743bc9c53b2e368341f7ab0c5fbe595984a671a786e1490a7ce0751ec17ab",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "a71efb7c8de3e72fb5e891f52f3e8e329201d2f4b59f15a855896e1dfc92472f"
+        },
+        {
+          "idx": 1,
+          "sha": "03143f24fd228439f3755e933c3f11f0e1fc5f98b8d21f19f080187d02a8d9cb"
+        },
+        {
+          "idx": 2,
+          "sha": "bf61f24681fb057a4dc752d98ecd67b31993028823e882d6d1029a4db8422537"
+        },
+        {
+          "idx": 3,
+          "sha": "13e31e157f21b13cf3eff5d16b18f1b167de400df8fc46773db159c1b5f736db"
+        },
+        {
+          "idx": 4,
+          "sha": "270520218dc672034095b65bb051abbfbfc09aed84062aba0aed3034886fd0f6"
+        }
+      ]
+    },
+    "app\\services\\prefs.py": {
+      "sha": "f9dad53b65d1a3ec0eab82904364729b0ea564bed96e293306745dda17e61eab",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "4d98f5ec11d555eab2b949d459fdd6c9d40cf08533a0ee41db0e0eb8c86a78c7"
+        },
+        {
+          "idx": 1,
+          "sha": "5032d3815b399baced2b9369138bd694c65b65bafcf4b6fbf4851f74398a0c83"
+        },
+        {
+          "idx": 2,
+          "sha": "d58050014a54737f3c02d399a0d73a2a804d5cea1427448c44ef98cdf3363c9d"
+        },
+        {
+          "idx": 3,
+          "sha": "611bf321646c2bcec6925e327f5d4f59b595d04e068cc4d1380120d84f6f8229"
+        }
+      ]
+    },
+    "app\\services\\search.py": {
+      "sha": "ee85ef5404c10e39c8da2b2b4fc11672cd70c0167df941206e75f0d6d1c5ef0f",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "af40155c1b9664374580f1815c84bebc554e7b73ac5731363f3bbdaebfafd23e"
+        },
+        {
+          "idx": 1,
+          "sha": "1c3f8e907cdbca89f6a17251837f33f59fbceb486a4c18c763f909f58a1f8f76"
+        },
+        {
+          "idx": 2,
+          "sha": "33654316e79f3cc561ad195e43205b5bee2a6154e11fb652a5d0180db064d03d"
+        },
+        {
+          "idx": 3,
+          "sha": "057134f9604c1ff247b05291134b91836d413f76874fd3be163c509aa5a3a088"
+        },
+        {
+          "idx": 4,
+          "sha": "039a577fd23d53507451a912a77d0c1ec2df32c7bde17a1db10cbf32c4f85b73"
+        },
+        {
+          "idx": 5,
+          "sha": "7dab9dba0ffcd96df3db17f6786e3981ae223c33bd5dbad892bebb5fee4845ed"
+        },
+        {
+          "idx": 6,
+          "sha": "4fc18952a20fea27de35fdb107bfa6fab7982b7c912c91c5e675b6042a15b433"
+        },
+        {
+          "idx": 7,
+          "sha": "1e4c36b4d22ec094b99b4c448701618b0351facab9aaf0e377a73066b30df474"
+        },
+        {
+          "idx": 8,
+          "sha": "bc64aa925a36c837674605835d3f6043a2280bb92434cefa56232debfa10092f"
+        },
+        {
+          "idx": 9,
+          "sha": "b22b15cf617678051a8a5a8e660d8e7f3a0c696e94de46e25214e0c0525a350a"
+        }
+      ]
+    },
+    "app\\services\\self_update.py": {
+      "sha": "2f77f4905dea96ee545a1c95e5000afa14ac75dec22bd6d47cf5e2e08d480116",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "cd34d90185e0ee491e6ce3749a24ad4d83a62beb8fbd639ad2c26cdc873a5356"
+        },
+        {
+          "idx": 1,
+          "sha": "070553b1d49aa0ee7047bd68c3bb63ec97c76a28ff8a12bbb7c8c043b3f4afdf"
+        }
+      ]
+    },
+    "app\\services\\startup_indexer.py": {
+      "sha": "67b1fb01aeecec7ace76dfc6adb2e25b140d98d3be392fc0799993617c321917",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "a83a6f1c09ad6c921b29ad6ea8a038a9a5a14a72a3dfb91d41585357250984a9"
+        },
+        {
+          "idx": 1,
+          "sha": "d631344d63db2b114f7811c26ad6e1134045aadc4ed8fa348cba0d51bdc579ee"
+        },
+        {
+          "idx": 2,
+          "sha": "85ca0864994f761461c98bb8d7734e3206b3aa7c8f18548c136d95435eee5446"
+        },
+        {
+          "idx": 3,
+          "sha": "9438a369bb85bf90416a387a288f784178f2ae3260df1ab3f3fd5863e5c017fb"
+        },
+        {
+          "idx": 4,
+          "sha": "f455c09b819fc7c8cacab9a401db03664d08d0756318d59c1f65bbb137788d9c"
+        }
+      ]
+    },
+    "app\\services\\trace_logger.py": {
+      "sha": "edcdb046df31f77ca2087490e0f26839cc4465ea6e01510a8995336985d0d8ad",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "b2b7a974aedd2c9b63cf216ab8fc7b6cd13ccdf563448153427426ce78034135"
+        },
+        {
+          "idx": 1,
+          "sha": "3a3d6d320ab6daa882dbe6e5b337c8bebbfcc817dfdd5b7155f9bc46db558b2e"
+        }
+      ]
+    },
+    "app\\static\\ui.html": {
+      "sha": "bd8962e5fee0d13aa3a3a51b6ca4fb33ad24194818c67a11eefa732feb6aded1",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "f7b3cd9eb80bf52c0a93ccad07134e4a706f5fe6fecc7f654e5a9d17ce1cabd2"
+        },
+        {
+          "idx": 1,
+          "sha": "e853119bf5f4704a6fb28a83a3b89e40874a659f1d7b15fb92e284e5f785425e"
+        },
+        {
+          "idx": 2,
+          "sha": "ad34f4650fdf9c1c0aedd7997ebee0aed877199118218d857140f7ed9fd99d27"
+        },
+        {
+          "idx": 3,
+          "sha": "9ebf8ae2aaeeda6cc0a832c3b1710bc20df1677e6315cb6920d29d32de3234fd"
+        },
+        {
+          "idx": 4,
+          "sha": "2d26e20dd9eb480446350ed88652a6de100c0879c64ca82c7e0d92408fc52108"
+        },
+        {
+          "idx": 5,
+          "sha": "681206a0efa07aca67cd44a01833d76d943824b424d482213a550ec3e67a1743"
+        },
+        {
+          "idx": 6,
+          "sha": "b24dc9b29acfcff254b018b5e6888f86374701b0e2da305d82e163bc4b048d30"
+        },
+        {
+          "idx": 7,
+          "sha": "5c6199c32d39312780118ec9ae5c98cd235d255bb2569a9b708095e51b8ee6c6"
+        },
+        {
+          "idx": 8,
+          "sha": "7f3fb3f77f102c679052c375292bbeb70029210bb0dfd2318de8879598dd630d"
+        }
+      ]
+    },
+    "app\\routers\\verify.py": {
+      "sha": "d9d4093c986337a83ca032f5655645e701ca1790f1b87fd2a97b1b9ed41a60df",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "377cbde67f2a83e6bbc4bd2ab5ef1df28eafa9e2e24a5b9521fda3deed6fea2e"
+        },
+        {
+          "idx": 1,
+          "sha": "837ea2ceb26da4716e44a9d8068431c1937bd3ba3ac1cfccd581d82c1b0ca401"
+        }
+      ]
+    },
+    "app\\services\\verification.py": {
+      "sha": "dd2efc41d8a6918465a62f957330d3b7f5daa25e2b98e8ba6f18871e221a2c0f",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "ccbb9251a82c14e6f185c23afc823d9e73147c183ddcb15fc36b91eb43bc58cf"
+        },
+        {
+          "idx": 1,
+          "sha": "7c2a5f658f4b4801636b1bd0314e210fcc8c2783c6242229184e37cc9da18c57"
+        },
+        {
+          "idx": 2,
+          "sha": "eebde4146df6843ac833325737c964f3ee343752d9d554717563dc6d3651b023"
+        },
+        {
+          "idx": 3,
+          "sha": "571591f23b4d51f6784cca6020a5f0a39a66f5985affce1b4a205cb3c4923168"
+        },
+        {
+          "idx": 4,
+          "sha": "8986803f07330b03bd9ae0d7ed32ae805913a75e29c7c37069e451e422e02e70"
+        }
+      ]
+    },
+    "app\\services\\code_ingest.py": {
+      "sha": "0384b672de7c4e8d0644c8b3f985ed9031aaa32337f1af54df1c7731883fd22d",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "d072da7fcfb7b2eabc47efdba81f6196e47110b15ea4c584b3b6bc817ba4134a"
+        },
+        {
+          "idx": 1,
+          "sha": "af654dad599f29f2d6dedc71a3ba2c67937cce9005758eaabe5564129723c9d8"
+        },
+        {
+          "idx": 2,
+          "sha": "f18e213a6e6aa5576d4b7945198f457f36c75e2495a302a6ff9fef0fbb912581"
+        }
+      ]
+    },
+    "app\\routers\\patch_router.py": {
+      "sha": "c7481366192efd2112f126ca0189bf23abd53c7cce72cea0ae8ebc31ba442e80",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "c7481366192efd2112f126ca0189bf23abd53c7cce72cea0ae8ebc31ba442e80"
+        }
+      ]
+    },
+    "app\\static\\self_review.html": {
+      "sha": "c6c674f6ced45c7ea8aa50e3fb1f6f633d3ab42cb0c3ff6d82f81f691b4c16d4",
+      "chunks": [
+        {
+          "idx": 0,
+          "sha": "de4d5fdb37a378b48feb817f3cb27e3ce1ebec9398804723cce8c9153bc14e85"
+        },
+        {
+          "idx": 1,
+          "sha": "253b8db535f93e35755aa599d3d20fcfbfc1afb8141f1300bff943d950e88f27"
+        },
+        {
+          "idx": 2,
+          "sha": "0c474dd1f2fe57af14ac2e820a9e0be2e7292291e6f40e30ec5bcecfb2eca218"
+        },
+        {
+          "idx": 3,
+          "sha": "ff035c0b12d9ae566bb5936983ad54891d857dde2ef1d1159edcbcb5ece1224b"
+        }
+      ]
+    }
+  }
+}

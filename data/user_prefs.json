@@ -1,0 +1,560 @@
+{
+  "preferences": {
+    "boost": [
+      "fr.wikipedia.org",
+      "www.tiktok.com",
+      "www.fnac.com"
+    ],
+    "ban": [
+      "www.pinterest.com",
+      "www.sncar-maroc.com",
+      "ru.pinterest.com",
+      "www.julsa.fr",
+      "www.pointandgeek.com",
+      "www.monpetitforfait.com",
+      "www.wandaloo.com"
+    ]
+  },
+  "history": [
+    {
+      "query": "voiture",
+      "title": "Voiture",
+      "snippet": "Le terme « voiture » possède différentes significations selon le contexte.",
+      "url": "https://fr.wikipedia.org/wiki/Voiture",
+      "domain": "fr.wikipedia.org",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Wikipedia Automobile — Wikipédia",
+      "snippet": "1 week ago - Le terme « véhicule automobile » est plus large que le terme « voiture automobile », il couvre l'ensemble des véhicules motorisés d'au moins quatre roues. Ainsi, dès 1956, Chapelain note que « De par leur destination, les véhicules automobiles sont classés en : voiture s de tourisme ; v",
+      "url": "https://fr.wikipedia.org/wiki/Automobile",
+      "domain": "fr.wikipedia.org",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "900+ idées de Voiture en 2025 | voiture , voitures de luxe, vehicule",
+      "snippet": "voiture du futur. des voitures de rêve. When autocomplete results are available use up and down arrows to review and enter to select.",
+      "url": "https://www.pinterest.com/gregyvan123/voiture/",
+      "domain": "www.pinterest.com",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Voiture de location DACIA LODGY à Marrakech",
+      "snippet": "Votre demande de réservation de voiture a été soumise à nos agents.",
+      "url": "https://www.sncar-maroc.com/location-de-voiture-dacia-lodgy-33",
+      "domain": "www.sncar-maroc.com",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Comment démarr une voiture sans avoir une autre... - voiturenet.ma",
+      "snippet": "Démarrer une voiture sans l'aide d'un autre véhicule est différent pour les voitures manuelles et automatiques. Démarrer par poussée un véhicule à transmission manuelle.",
+      "url": "https://www.voiturenet.ma/fr/posts/comment-demarr-une-voiture-sans-avoir-une-autre-voiture-a-disposition",
+      "domain": "www.voiturenet.ma",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Est-il normal de geler un petit peu dans une voiture électrique l'hiver ?",
+      "snippet": "T’as pas à geler dans ta voiture parce qu’elle est électrique ! — Mais non Daniel, je ne gèle pas dans ma voiture . On met les bancs chauffants et on est confortable.",
+      "url": "https://roulezelectrique.com/est-il-normal-de-geler-un-petit-peu-dans-une-voiture-electrique-lhiver/",
+      "domain": "roulezelectrique.com",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Voiture Noir BMW série 2 grand tourer 218d bon état - Voitures",
+      "snippet": "Voiture Noir BMW série 2 grand tourer 218d bon état. 3 500 €. Réserver.",
+      "url": "https://www.leboncoin.fr/ad/voitures/3080618183",
+      "domain": "www.leboncoin.fr",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Location voiture longue durée par Agence Rayhane Cars",
+      "snippet": "C’est possible avec Rayhane cars, notre agence de location voiture des villes touristiques marocaines de : Agadir, Marrakech, Casablanca, Rabat et Essaouira.",
+      "url": "https://rayhane-cars.net/location-voiture-longue-duree-maroc/",
+      "domain": "rayhane-cars.net",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Haute Voiture : когда дорога становится подиумом. | Дзен",
+      "snippet": "Haute Voiture — это не дань моде, а демонстрация того, что мода может быть встроена в движение.Но именно поэтому Haute Voiture выделяется — не криком, а шепотом.",
+      "url": "https://dzen.ru/a/aPjg3DlGcjtimF0e",
+      "domain": "dzen.ru",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Annonce de vente de voiture occasion en tunisie PEUGEOT 206 Tunis",
+      "snippet": "Tunis. Autres informations. Voiture 1 ère main en bon état. Contact. 23764208.",
+      "url": "https://vente-voiture-tunisie.com/voiture-occasion/Annonce-vente-voiture-occasion-tunisie.aspx?ref=251024112933",
+      "domain": "vente-voiture-tunisie.com",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Voiture Autonome Sans Chauffeur / Photo & Vidéo Google Car",
+      "snippet": "En effet, le rêve de tous est de voir la naissance d’une voiture sans conducteur. Et pour l'atteindre, les constructeurs automobiles tentent de créer les voitures du lendemain.",
+      "url": "https://www.voitureautonome.net/",
+      "domain": "www.voitureautonome.net",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "Le mythe des 1 000 km d’autonomie en voiture électrique : quand la...",
+      "snippet": "Les voitures électriques avec une faible autonomie séduisent beaucoup moins. En clair, sans autonomie suffisante, pas de bascule massive vers l’électrique.",
+      "url": "https://www.frandroid.com/survoltes/voitures-electriques/2773709_le-mythe-des-1-000-km-dautonomie-en-voiture-electrique-quand-la-quete-du-graal-vire-a-labsurde",
+      "domain": "www.frandroid.com",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "La Centrale Voiture Occasion Toulouse (31000) : Annonces Auto - La Centrale",
+      "snippet": "Trouvez votre voiture d’occasion à Toulouse ⭐ La Centrale ✔️+ 320 000 annonces autos sécurisées ✔️ Ventes partout en France par des pros & particuliers",
+      "url": "https://www.lacentrale.fr/region/occasion-voiture-occitanie/haute-garonne-31/toulouse.html",
+      "domain": "www.lacentrale.fr",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "La Centrale Voiture Occasion Nice (06000) : Annonces Auto - La Centrale",
+      "snippet": "Trouvez votre voiture d’occasion à Nice ⭐ La Centrale ✔️+ 320 000 annonces autos sécurisées ✔️ Ventes partout en France par des pros & particuliers",
+      "url": "https://www.lacentrale.fr/region/occasion-voiture-provence-alpes-cote-d-azur/alpes-maritimes-06/nice.html",
+      "domain": "www.lacentrale.fr",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "voiture",
+      "title": "La Centrale Voiture Occasion Paris : Annonces - La Centrale",
+      "snippet": "Annonces de voiture s d'occasion Paris ⭐ La Centrale ✔️ Annonces sécurisées ✔️ Achat & vente en France par des pros & particuliers",
+      "url": "https://www.lacentrale.fr/region/occasion-voiture-ile-de-france/paris-75.html",
+      "domain": "www.lacentrale.fr",
+      "liked": null,
+      "ts": 1761429364.2642887
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher , le comparatif des prix de l' iPhone en France!",
+      "snippet": "Un des meilleurs moyens d’obtenir un iPhone pas cher est de trouver un iPhone reconditionné, habituellement dans un état comme neuf et disposant d’une garantie constructeur.",
+      "url": "https://iphonepascher.com/",
+      "domain": "iphonepascher.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Envie d’un iPhone pas cher ? Voici ce que tu dois savoir... | TikTok",
+      "snippet": "... Ne te fais pas arnaquer ! # iPhone #BonPlan nouvel arrivage, tous les modèles pas cher 100 % original est fonctionnel ##solutionstech## iPhone ##iPhoneOccasion#...",
+      "url": "https://www.tiktok.com/@solutions_tech/video/7473070775684041992",
+      "domain": "www.tiktok.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher : comparez les iPhone sur MeilleurMobile",
+      "snippet": "Un iPhone pas cher bénéficie évidemment de la toute-puissance Apple. Les processeurs Apple sont directement construits dans les laboratoires de Cupertino.",
+      "url": "https://www.meilleurmobile.com/mobiles/search.do?marque=apple&prix-seul-sup=100",
+      "domain": "www.meilleurmobile.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher : l'acheter neuf, reconditionné ou d'occasion?",
+      "snippet": "iPhone 6s pas cher : les bonnes affaires à moins de 680€. Commençons par l’avant dernière version de l’ iPhone : à partir de quel prix peut-on considérer qu’il s’agit d’un iPhone 6s pas cher ?",
+      "url": "https://www.cpascher.fr/iphone/",
+      "domain": "www.cpascher.fr",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "IPhone pas cher - Téléphones & Objets connectés",
+      "snippet": "Bénéficiez de la protection acheteurs leboncoin. Description. iPhone 14 pro max Vendu avec accessoires et facture A venir chercher sur paris.",
+      "url": "https://www.leboncoin.fr/ad/telephones_objets_connectes/2792177904",
+      "domain": "www.leboncoin.fr",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "J'ai acheté les iPhone 16e ! (l' iPhone \" pas cher ...) - Vídeo Dail...",
+      "snippet": "Unboxing et prise en main de l' iPhone 16e à 719€ ! Abonne-toi | http://bit.ly/jojol67 https://youtu.be/5YjjM-L-cHU https://youtu.be/VjLVIXIHzBA ME SUIVRE http...",
+      "url": "https://www.dailymotion.com/video/x9ffwbq",
+      "domain": "www.dailymotion.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Un iPhone pas cher ? Profitez de cette astuce ultime et encore peu...",
+      "snippet": "En effet, vous pouvez dès maintenant vous procurer un iPhone 13 reconditionné de la marque Apple pour moins de 300 euros. Dépêchez-vous, plus de 50 commandes sont déjà en cours…",
+      "url": "https://www.bfmtv.com/tech/bons-plans/un-i-phone-pas-cher-profitez-de-cette-astuce-ultime-et-encore-peu-connue-pour-acheter-l-i-phone-13-a-petit-prix_AB-202507050033.html",
+      "domain": "www.bfmtv.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Un iPhone moins cher en 2013 ... À quoi pourrait-il ressembler ?",
+      "snippet": "Depuis quelque temps, la rumeur d’un iPhone ‘ pas cher ’ ne cesse de grandir. C’est aujourd’hui le site iLounge qui affirme tenir de source sûre que cet iPhone , dont on dit qu’il sera en grande...",
+      "url": "https://www.iphon.fr/post/iphone-pas-cher-design",
+      "domain": "www.iphon.fr",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Zoekertjes voor \" iphone pas cher \" | 2dehands",
+      "snippet": "Heel 2dehands. 71 resultaten voor ' iphone pas cher '. Ontvang meldingen van nieuwe zoekresultaten. Bewaar je zoekopdracht.",
+      "url": "https://www.2dehands.be/q/iphone+pas+cher/",
+      "domain": "www.2dehands.be",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "coque iphone 3g pas cher ou piece iphone 5s pas cher ...",
+      "snippet": "Чехлы Для Iphone . Войлочные Куклы. Розовые Обои.",
+      "url": "https://ru.pinterest.com/pin/312789136595025645/",
+      "domain": "ru.pinterest.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "NRJ Mobile : des iPhone pas chers , et un modèle gratuit !",
+      "snippet": "Mieux qu’un iPhone pas cher : un iPhone 8 gratuit ! Pour changer de smartphone, la donne est souvent simple : il suffit de sauter sur les occasions qui se présentent.",
+      "url": "https://www.monpetitforfait.com/telephonie-mobile/nrj-mobile/301160-nrj-mobile-iphone-pas-chers-gratuit",
+      "domain": "www.monpetitforfait.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Il achète un iPhone pas cher sur Internet et reçoit une table en forme...",
+      "snippet": "En effet, la boîte dans laquelle le téléphone était censé se trouver était presque aussi grande que lui. Il y avait bien un iPhone là-dedans, mais pas le genre auquel il s’attendait.",
+      "url": "https://www.ulyces.co/news/il-achete-un-iphone-pas-cher-sur-internet-et-recoit-une-table-en-forme-diphone/",
+      "domain": "www.ulyces.co",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "La location, Bon plan pour un iPhone pas cher ?",
+      "snippet": "La solution existe : la location d’ iPhone . Ce concept, simple et efficace, pourrait bien être le bon plan que vous attendiez pour profiter des dernières technologies sans exploser votre budget.",
+      "url": "https://www.julsa.fr/location-bon-plan-iphone-pas-cher/",
+      "domain": "www.julsa.fr",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher : où peut-on le trouver en bon état ?",
+      "snippet": "neuf- pas - cher - iphone . L’ iPhone est un smartphone conçu et commercialisé par Apple Inc. Il fonctionne sous iOS, qui est un système d’exploitation propriétaire.",
+      "url": "https://www.pointandgeek.com/iphone-pas-cher/",
+      "domain": "www.pointandgeek.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Recommerce iPhone reconditionné - Smartphone Apple pas cher",
+      "snippet": "Appelés « iPhone », ces derniers ont su, chaque année, se présenter avec des innovations qui ont marqué leur date de sortie. Vous recherchez un téléphone portable reconditionné capable de vous proposer de grandes performances ? Ne cherchez pas plus loin, il y a l'iPhone reconditionné !",
+      "url": "https://www.recommerce.com/fr/les-telephones-reconditionnes/iphone-reconditionne",
+      "domain": "www.recommerce.com",
+      "liked": null,
+      "ts": 1761429491.821163
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher , le comparatif des prix de l' iPhone en France!",
+      "snippet": "Plusieurs alternatives existent pour trouver un iPhone pas cher : souscrire à un abonnement, profiter d’une promotion, acheter un iPhone reconditionné ou…d’occasion.",
+      "url": "https://iphonepascher.com/",
+      "domain": "iphonepascher.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Envie d’un iPhone pas cher ? Voici ce que tu dois savoir... | TikTok",
+      "snippet": "... Ne te fais pas arnaquer ! # iPhone #BonPlan nouvel arrivage, tous les modèles pas cher 100 % original est fonctionnel ##solutionstech## iPhone ##iPhoneOccasion#...",
+      "url": "https://www.tiktok.com/@solutions_tech/video/7473070775684041992",
+      "domain": "www.tiktok.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher : comparez les iPhone sur MeilleurMobile",
+      "snippet": "Un iPhone pas cher bénéficie évidemment de la toute-puissance Apple. Les processeurs Apple sont directement construits dans les laboratoires de Cupertino.",
+      "url": "https://www.meilleurmobile.com/mobiles/search.do?marque=apple&prix-seul-sup=100",
+      "domain": "www.meilleurmobile.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher : l'acheter neuf, reconditionné ou d'occasion?",
+      "snippet": "Un iPhone pas cher neuf… avec un forfait mobile ! La dernière alternative pour acheter son iPhone moins cher permet d’obtenir un smartphone neuf à parfois…1€ !",
+      "url": "https://www.cpascher.fr/iphone/",
+      "domain": "www.cpascher.fr",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "IPhone pas cher - Téléphones & Objets connectés",
+      "snippet": "IPhone pas cher . 700 €. aujourd’hui à 21:18. iPhone 14 pro max Vendu avec accessoires et facture A venir chercher sur paris.",
+      "url": "https://www.leboncoin.fr/ad/telephones_objets_connectes/2792177904",
+      "domain": "www.leboncoin.fr",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "J'ai acheté les iPhone 16e ! (l' iPhone \" pas cher ...) - Vídeo Dail...",
+      "snippet": "Unboxing et prise en main de l' iPhone 16e à 719€ ! Abonne-toi | http://bit.ly/jojol67 https://youtu.be/5YjjM-L-cHU https://youtu.be/VjLVIXIHzBA ME SUIVRE http...",
+      "url": "https://www.dailymotion.com/video/x9ffwbq",
+      "domain": "www.dailymotion.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Un iPhone pas cher ? Profitez de cette astuce ultime et encore peu...",
+      "snippet": "En effet, vous pouvez dès maintenant vous procurer un iPhone 13 reconditionné de la marque Apple pour moins de 300 euros.",
+      "url": "https://www.bfmtv.com/tech/bons-plans/un-i-phone-pas-cher-profitez-de-cette-astuce-ultime-et-encore-peu-connue-pour-acheter-l-i-phone-13-a-petit-prix_AB-202507050033.html",
+      "domain": "www.bfmtv.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Un iPhone moins cher en 2013 ... À quoi pourrait-il ressembler ?",
+      "snippet": "Depuis quelque temps, la rumeur d’un iPhone ‘ pas cher ’ ne cesse de grandir.",
+      "url": "https://www.iphon.fr/post/iphone-pas-cher-design",
+      "domain": "www.iphon.fr",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Zoekertjes voor \" iphone pas cher \" | 2dehands",
+      "snippet": "71 resultaten voor ' iphone pas cher '. Ontvang meldingen van nieuwe zoekresultaten. Bewaar je zoekopdracht.",
+      "url": "https://www.2dehands.be/q/iphone+pas+cher/",
+      "domain": "www.2dehands.be",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "coque iphone 3g pas cher ou piece iphone 5s pas cher ...",
+      "snippet": "Зимний Домашний Декор. Лило Стич. Чехлы Для Iphone . Классные Вещи.",
+      "url": "https://ru.pinterest.com/pin/312789136595025645/",
+      "domain": "ru.pinterest.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "NRJ Mobile : des iPhone pas chers , et un modèle gratuit !",
+      "snippet": "Mieux qu’un iPhone pas cher : un iPhone 8 gratuit ! Pour changer de smartphone, la donne est souvent simple : il suffit de sauter sur les occasions qui se présentent.",
+      "url": "https://www.monpetitforfait.com/telephonie-mobile/nrj-mobile/301160-nrj-mobile-iphone-pas-chers-gratuit",
+      "domain": "www.monpetitforfait.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Il achète un iPhone pas cher sur Internet et reçoit une table en forme...",
+      "snippet": "Il y avait bien un iPhone là-dedans, mais pas le genre auquel il s’attendait. Pourtant, la description indiquait bien que le téléphone bon marché était en fait une table basse.",
+      "url": "https://www.ulyces.co/news/il-achete-un-iphone-pas-cher-sur-internet-et-recoit-une-table-en-forme-diphone/",
+      "domain": "www.ulyces.co",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "La location, Bon plan pour un iPhone pas cher ?",
+      "snippet": "La solution existe : la location d’ iPhone . Ce concept, simple et efficace, pourrait bien être le bon plan que vous attendiez pour profiter des dernières technologies sans exploser votre budget.",
+      "url": "https://www.julsa.fr/location-bon-plan-iphone-pas-cher/",
+      "domain": "www.julsa.fr",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "iPhone pas cher : où peut-on le trouver en bon état ?",
+      "snippet": "neuf- pas - cher - iphone . L’ iPhone est un smartphone conçu et commercialisé par Apple Inc. Il fonctionne sous iOS, qui est un système d’exploitation propriétaire. Il y a de nombreuses...",
+      "url": "https://www.pointandgeek.com/iphone-pas-cher/",
+      "domain": "www.pointandgeek.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "iphone pas cher",
+      "title": "Tous les iPhone - Achat iPhone - Prix | fnac",
+      "snippet": "A la Fnac, choisissez dans la gamme complète le modèle neuf, d’ occasion ou reconditionné qui vous convient le mieux : iPhone 7 et 7+, iPhone 6 et 6s, iPhone 5C, les iPhone SE etc. Vous les …",
+      "url": "https://www.fnac.com/Tous-les-iPhone/iPhone/nsh312712/w-4",
+      "domain": "www.fnac.com",
+      "liked": null,
+      "ts": 1761429534.0186026
+    },
+    {
+      "query": "voiture",
+      "title": "Voiture",
+      "snippet": "Le terme « voiture » possède différentes significations selon le contexte.",
+      "url": "https://fr.wikipedia.org/wiki/Voiture",
+      "domain": "fr.wikipedia.org",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Wikipedia Automobile — Wikipédia",
+      "snippet": "1 week ago - Le terme « véhicule automobile » est plus large que le terme « voiture automobile », il couvre l'ensemble des véhicules motorisés d'au moins quatre roues. Ainsi, dès 1956, Chapelain note que « De par leur destination, les véhicules automobiles sont classés en : voiture s de tourisme ; v",
+      "url": "https://fr.wikipedia.org/wiki/Automobile",
+      "domain": "fr.wikipedia.org",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Voiture neuve au Maroc : le Guide d'achat complet - wandaloo.com",
+      "snippet": "Toutes les infos pour acheter une voiture neuve au Maroc : prix de vente et promo de voiture neuve au Maroc. Fiches techniques des voitures neuves au Maroc, Essai et Test Drive ainsi que les …",
+      "url": "https://www.wandaloo.com/neuf/",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Acheter voiture occasion au Maroc - wandaloo.com",
+      "snippet": "Retrouvez ici la voiture occasion qui vous correspond.",
+      "url": "https://www.wandaloo.com/occasion/",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Voiture Occasion Maroc - Annonces de l'occasion - wandaloo.com",
+      "snippet": "Retrouvez ici toutes les informations pour acheter une voiture occasion au Maroc : annonces voiture occasion, déposer une annonce. Vendez votre voiture plus rapidement en atteignant le plus …",
+      "url": "https://www.wandaloo.com/occasion/voiture-occasion-maroc-annonce.html",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Comparateur de voitures neuves au Maroc - wandaloo.com",
+      "snippet": "Comparateur Voiture Neuve Maroc Vous êtes sur le point d'acheter une voiture neuve et vous ne savez pas laquelle choisir. Vous hésitez encore plusieurs marques ou modèles de voiture neuve...",
+      "url": "https://www.wandaloo.com/neuf/voiture-neuve-maroc-comparer.html",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Promo Voiture Neuve Maroc : les offres du moment - wandaloo.com",
+      "snippet": "Retrouvez ici toutes les promos de voitures neuves au Maroc. Les remises et offres promotionnelles chez les concessionnaires automobile neuves au Maroc.",
+      "url": "https://www.wandaloo.com/neuf/promo-voiture-neuve-maroc.html",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Offres et promotions des voitures neuves au Maroc - wandaloo.com",
+      "snippet": "Retrouvez ici toutes les offres et promotions sur les voitures neuves au Maroc. Les remises et offres promotionnelles chez les concessionnaires de voitures neuves au Maroc.",
+      "url": "https://www.wandaloo.com/neuf/offre-voiture-neuve-maroc.html",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Acheter une voiture neuve au Maroc - wandaloo.com",
+      "snippet": "Retrouvez ici la voiture neuve qui vous correspond.",
+      "url": "https://www.wandaloo.com/neuf/maroc/0,0,0,2,1,0,-,az,6.html",
+      "domain": "www.wandaloo.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "La Centrale Voiture Occasion Toulouse (31000) : Annonces Auto - La Centrale",
+      "snippet": "Trouvez votre voiture d’occasion à Toulouse ⭐ La Centrale ✔️+ 320 000 annonces autos sécurisées ✔️ Ventes partout en France par des pros & particuliers",
+      "url": "https://www.lacentrale.fr/region/occasion-voiture-occitanie/haute-garonne-31/toulouse.html",
+      "domain": "www.lacentrale.fr",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "La Centrale Voiture Occasion Nice (06000) : Annonces Auto - La Centrale",
+      "snippet": "Trouvez votre voiture d’occasion à Nice ⭐ La Centrale ✔️+ 320 000 annonces autos sécurisées ✔️ Ventes partout en France par des pros & particuliers",
+      "url": "https://www.lacentrale.fr/region/occasion-voiture-provence-alpes-cote-d-azur/alpes-maritimes-06/nice.html",
+      "domain": "www.lacentrale.fr",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "La Centrale Voiture Occasion Paris : Annonces - La Centrale",
+      "snippet": "Annonces de voiture s d'occasion Paris ⭐ La Centrale ✔️ Annonces sécurisées ✔️ Achat & vente en France par des pros & particuliers",
+      "url": "https://www.lacentrale.fr/region/occasion-voiture-ile-de-france/paris-75.html",
+      "domain": "www.lacentrale.fr",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Eden Auto Voitures Occasion à Toulouse : 525 offres à saisir chez edenauto",
+      "snippet": "Comparer les prix de nos voiture s Occasion disponibles tout de suite chez edenauto - - () . Achetez une voiture s Occasion à Toulouse en consultant en ligne les offres spéciales de votre revendeur agréé edenauto",
+      "url": "https://www.edenauto.com/voitures/occasion/toulouse/",
+      "domain": "www.edenauto.com",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "AutoScout24 Voiture occasion Nice: Acheter et vendre voitures d'occasion à Nice | AutoScout24",
+      "snippet": "Achetez et vendez voiture s d'occasion et voiture s récentes à Nice chez AutoScout24.fr - le grand marché automobile en Europe. Acheter et vendre voiture occasion a Nice.",
+      "url": "https://www.autoscout24.fr/voiture/voiture-occasion/provence-alpes-cote-dazur/nice/",
+      "domain": "www.autoscout24.fr",
+      "liked": null,
+      "ts": 1761550655.9387767
+    },
+    {
+      "query": "voiture",
+      "title": "Leboncoin Voitures d'occasion - leboncoin",
+      "snippet": "Toutes nos annonces voiture s d'occasion . Consultez nos annonces de particuliers et professionnels sur leboncoin",
+      "url": "https://www.leboncoin.fr/c/voitures",
+      "domain": "www.leboncoin.fr",
+      "liked": null,
+      "ts": 1761550655.9387767
+    }
+  ]
+}
